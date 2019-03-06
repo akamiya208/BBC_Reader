@@ -1,0 +1,46 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+header{
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#container{
+    margin: 0.5em auto 0;
+    width: 95%;
+    overflow: hidden;
+    height: 90%;
+}
+
+#left{
+    float: left;
+    width: 49.8%;
+    margin: 0 auto;
+    background-color: navajowhite;
+}
+
+#right{
+    float: right;
+    width: 49.8%;
+    margin: 0 auto;
+    background-color: navajowhite;
+}
+
+.contents{
+    overflow: auto;
+}
+
+.container_header{
+    background-color: navy;
+}

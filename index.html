@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <form name="index" action="cgi-bin/index.py" method="post"></form>
+
+    <script type="text/javascript">
+        function OnLinkClick() {
+            document.index.submit();
+        }
+        setTimeout('OnLinkClick()',5000);
+    </script>
+
+    <title>ページを移動します</title>
+</head>
+<body>
+5秒後にジャンプします。<br>
+ジャンプしない場合は、<a href="javascript:void(0)" onclick="OnLinkClick()">クリック</a>してください。<br>
+
+
+</body>
+</html>

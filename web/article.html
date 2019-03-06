@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <title>BBC_Reader</title>
+    <link rel="stylesheet" type="text/css" href="article.css">
+    <script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<header>BBC_Reader</header>
+
+<div id="container">
+    <div id="left">
+        <header class="container_header">
+            this is a left header
+        </header>
+        <div class="contents">
+            this is left side contents
+        </div>
+    </div>
+    <div id="right">
+        <header class="container_header">
+            this is a right header
+        </header>
+        <div class="contents">
+            this is right side contents
+        </div>
+    </div>
+</div>
+
+</body>
+<script>
+    var container_h = document.getElementById('container').clientHeight;
+    var container_header_collection = document.getElementsByClassName('container_header');
+    var container_header_h = container_header_collection[0].clientHeight;
+    var contents_h = container_h - container_header_h;
+    contents_h = contents_h + 'px';
+    $("div.contents").css("max-height",contents_h);
+</script>
+</html>

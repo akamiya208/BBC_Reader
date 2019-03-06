@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding-top: 35px;
+    background-color: aliceblue;
+}
+
+header{
+    position: fixed;            /* ヘッダーの固定 */
+    top: 0;                   /* 位置(上0px) */
+    left: 0;                  /* 位置(右0px) */
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.rss_box {
+    background-color: white;
+    display: block;
+    width: 80%;
+    margin: 1em auto;
+    padding: 0.5em;
+    border:solid medium black;
+    height:auto;
+    overflow:hidden
+}
+
+.rss_image{
+    float: left;
+    width: 30%;
+}
+
+
+.rss_box img{
+    width: 29%;
+}
+
+.rss_contents_image{
+    float: right;
+    width: 70%;
+}
+
+.rss_contents{
+    width: 100%;
+}
+
+.contents_title{
+    display: block;
+}
+.contents_description{
+    display: block;
+}
